@@ -1,7 +1,10 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
 }
 
 .header {
@@ -46,6 +49,7 @@
 .nav-ul .current {
   background-color: rgb(240, 240, 240);
   color: #2f2f2f;
+  font-weight: 300;
 }
 
 .nav-li:hover {
@@ -67,6 +71,10 @@
   flex-direction: column;
   justify-content: center;
   padding-top: 4rem;
+}
+
+.sectionP {
+  font-weight: 100;
 }
 
 .section:nth-child(odd) {
